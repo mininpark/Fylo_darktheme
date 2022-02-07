@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo dark theme landing page
+# Fylo dark theme landing page
 
 ### The challenge
 

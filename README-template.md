@@ -36,6 +36,6 @@ Sutiable changing with Bootstrap 4 with media query
 ## Author
 
 - Website - [Mina](https://github.com/mininpark/)
-Minahttps://github.com/mininpark/
+
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

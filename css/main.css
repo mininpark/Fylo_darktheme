@@ -160,7 +160,7 @@ header form input[type="submit"]{
 .secure .intro>*{z-index:1;}
 
 .secure .intro .intro__img{
-    background: url(../images/illustration-intro.png) no-repeat center/100%; 
+    background: url(../images/illustration-intro.png) no-repeat center/contain; 
     display:block;
     width: 735px; height: 575px;
     padding: 50px 0;
@@ -347,7 +347,7 @@ footer p.author, p.author a{text-align: center; margin-top: 60px; color: var(--d
     div.container{padding:0;}
     header .nav__logo a{margin-bottom: 20px;}
     header .nav__box{width: 100%; justify-content: center; align-items: center; flex-direction: column;}
-
+    .secure .intro{padding: 0 20px;}
     .secure .background__img {
         background: url(../images/bg-curvy-mobile.svg) no-repeat center/cover;
         display: block;
@@ -356,7 +356,7 @@ footer p.author, p.author a{text-align: center; margin-top: 60px; color: var(--d
         position: absolute;
         transform: translate(0px, -127px);
     }
-    .secure .intro .intro__img{width: 90vw; height: 35vh;}
+    .secure .intro .intro__img{width: 90vw; height: 380px; padding: 20px}
 
     .productive .prod__box{ flex-direction: column; padding-left: 20px;}
     .productive .prod__box>*{width: 90vw;}
@@ -398,6 +398,14 @@ footer p.author, p.author a{text-align: center; margin-top: 60px; color: var(--d
 }
 
 @media screen and (max-width: 365px){
+    .productive .prod__text h2 {font-size: 24px;}
+    .secure .intro .secure__text {
+        font-size: 24px;
+        line-height: 140%;
+    }
+    .secure .intro .intro__img {
+        padding: 0;
+    }
     .container{overflow: hidden;}
     .productive .prod__box .prod__img{height: 285px;}
 }

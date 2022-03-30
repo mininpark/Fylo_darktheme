@@ -13,8 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/mininpark/Fylo_darktheme/](https://github.com/mininpark/Fylo_darktheme/)
-- Live Site URL: [https://vercel.com/mininpark/fylo-darktheme](https://vercel.com/mininpark/fylo-darktheme/)
+- Live URL : https://mininpark.github.io/Fylo_darktheme/
 
 ## My process
 

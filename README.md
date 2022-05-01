@@ -29,9 +29,12 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
-I learned to use API (Endpoints, Paths, Parameters, Authentication and Postman) and understanded the logic of JSON. NPM is used here in this project too. 
-GET Requests is used with the NodeHTTPS Module by parsing JSON and Body Parser is used to parser POST Requests to the server (Async/Await).
-Express is used to render a website with Live API Data and Mailchimp API is used to interact with Users by getting email address. Success and Failure Pages for getting email address are also added, when it's going wrong. But in this case, I got the error 401 (unautorised) even after logging in and auth-token being present. 
+- I learned to use API (Endpoints, Paths, Parameters, Authentication and Postman) and understood the logic of JSON.
+- I learned also how to use NPM. 
+- GET Requests is used with the NodeHTTPS Module by parsing JSON and Body Parser is used to parser POST Requests to the server (Async/Await).
+- Express is used to render a website with Live API Data and Mailchimp API is used to interact with Users by getting email address. 
+- Success and Failure Pages for getting email address are also added, when it's going wrong. 
+- I got the error 401 (unautorised) even after logging in and auth-token being present. 
 
 ### Continued development
 
@@ -40,6 +43,3 @@ Sutiable changing with Bootstrap 4 with media query
 ## Author
 
 - Website - [Mina](https://github.com/mininpark/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-

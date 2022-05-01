@@ -11,13 +11,11 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!--fontawesome-->
   <script src="js/all.min.js"></script>
-
   <script src="js/main.js"></script>
   <!--Bootstrap-->
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
   <!--main.css has to load after boodstrap for changing css stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
 
 </head>
 <body>
@@ -25,7 +23,7 @@
     <div class="container">
       <div class="nav__box">
         <div class="nav__logo">
-          <a class="logo" href="index.html">Fylo<h1 class="hidden">Fylo</h1></a>
+          <a class="logo" href="/">Fylo<h1 class="hidden">Fylo</h1></a>
         </div>
         <nav class="nav__main">
           <ul>
@@ -153,8 +151,8 @@
         <h3 class="get_early">Get early access today</h3>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
           questions, our support team would be happy to help you.</p>
-        <form action="#" method="get">
-          <input type="email" placeholder="example@example.com" required>
+        <form action="/" method="POST">
+          <input type="email" placeholder="example@example.com" name="email" required>
           <input type="submit" value="Get Started For Free">
         </form>
       </div>

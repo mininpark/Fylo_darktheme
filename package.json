@@ -1,0 +1,27 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "description": "Users should be able to:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mininpark/Fylo_darktheme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mininpark/Fylo_darktheme/issues"
+  },
+  "homepage": "https://github.com/mininpark/Fylo_darktheme#readme",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.75",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

@@ -1,5 +1,7 @@
 # Fylo dark theme landing page
 
+### To run this page
+run "node app.js" or "nodemon app.js"
 
 ### Screenshot
 

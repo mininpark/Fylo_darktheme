@@ -7,10 +7,6 @@ run "node app.js" or "nodemon app.js"
 
 ![Design preview for the Fylo dark theme landing page challenge](/public/images/design/desktop-preview.jpg)
 
-### Links
-
-- Live URL : https://mininpark.github.io/Fylo_darktheme/
-
 ## My process
 
 ### Built with

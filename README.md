@@ -19,14 +19,19 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- Node JS with NPM API Express and Mailchimp
+- Body Parser in JS
+- JSON
+- Modern Asynchronous JavaScript with Async and Await
+- Bootstrap and CSS custom properties
 - Mobile-first workflow
-
+- Semantic HTML5 markup
+- Flexbox
 
 ### What I learned
-From this project, I tried to use Bootstrap 4 for showing optimal layout for the site depending on uses's device screen size. But when it comes to media query to set, I had a trouble with changing flex option of Bootstrap. So in this project, I only adjusted minimal Bootstrap settings. 
+I learned to use API (Endpoints, Paths, Parameters, Authentication and Postman) and understanded the logic of JSON. NPM is used here in this project too. 
+GET Requests is used with the NodeHTTPS Module by parsing JSON and Body Parser is used to parser POST Requests to the server (Async/Await).
+Express is used to render a website with Live API Data and Mailchimp API is used to interact with Users by getting email address. Success and Failure Pages for getting email address are also added, when it's going wrong. But in this case, I got the error 401 (unautorised) even after logging in and auth-token being present. 
 
 ### Continued development
 

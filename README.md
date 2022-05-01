@@ -32,7 +32,7 @@
 
 ### Continued development
 
-Sutiable changing with Bootstrap 4 with media query
+- To solve error 401 
 
 ## Author
 

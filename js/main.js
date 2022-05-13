@@ -1,9 +1,9 @@
-$(function(){
-    var $searchBtn = $('.nav__main .search_btn'), 
-        $searchForm = $('header form');
+$(function () {
+    $(document).scroll(function () {
+      const $nav = $(".fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
 
-        $searchBtn.click(function(){
-            $searchForm.toggleClass('active');
-        });
 
-}); //document ready funtion call back
+  
